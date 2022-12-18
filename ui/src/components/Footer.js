@@ -1,4 +1,12 @@
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faYoutube,
+    faFacebook,
+    faTwitter,
+    faInstagram,
+    faLinkedinIn
+  } from "@fortawesome/free-brands-svg-icons";
 import "../styles/Footer.css";
 export function Footer(props) {
     return (
@@ -24,9 +32,26 @@ export function Footer(props) {
                         <h4>Contact Us</h4>
                     </div>
                 </Link>
+
+                <div class="social-container">
+                    <a href="https://www.youtube.com" className="youtube social">
+                        <FontAwesomeIcon icon={faYoutube} size="2x" />
+                    </a>
+                    <a href="https://www.facebook.com" className="facebook social">
+                        <FontAwesomeIcon icon={faFacebook} size="2x" />
+                    </a>
+                    <a href="https://www.instagram.com" className="instagram social">
+                        <FontAwesomeIcon icon={faInstagram} size="2x" />
+                    </a>
+                    <a href="https://www.linkedin.com" className="linkedin social">
+                        <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
+                    </a>
+                    <a href="https://www.twitter.com" className="twitter social">
+                        <FontAwesomeIcon icon={faTwitter} size="2x" />
+                    </a>
+                </div>
             </div>
-            <div class="footer-socials">
-            </div>
+            
         </div>
     );
 }

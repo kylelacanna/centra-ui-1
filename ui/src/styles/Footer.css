@@ -18,3 +18,10 @@
 .footer-page-links {
     display: flex;
 }
+
+.social-container {}
+
+.social-container a {
+    padding: 3px;
+
+}
