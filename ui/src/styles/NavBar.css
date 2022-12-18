@@ -15,14 +15,36 @@
     color: #DAD7CD;
     padding: 0px 20px;
     text-decoration: none;
+    position: relative;
+    z-index: 1;
 }
 
 .right-bar-link:hover {
-    color: #44433e
+    color: #DAD7CD;
 }
 
-.left-bar-link:hover {
-    color: #44433e
+.right-bar-link:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 90%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: #3A5A40;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+}
+
+.right-bar-link:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
 }
 
 #right-bar {
@@ -36,4 +58,8 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
+
+.left-bar-link:hover {
+    color: #44433e
 }
