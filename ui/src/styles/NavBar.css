@@ -1,0 +1,39 @@
+.navbardiv {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 0rem;
+    background-color: #588157;
+    color: black;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+    justify-content: space-between;
+}
+
+.right-bar-link {
+    color: #DAD7CD;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.right-bar-link:hover {
+    color: #44433e
+}
+
+.left-bar-link:hover {
+    color: #44433e
+}
+
+#right-bar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-bar-link {
+    color: #DAD7CD;
+    padding: 0px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
