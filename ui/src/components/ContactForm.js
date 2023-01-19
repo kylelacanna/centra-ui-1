@@ -18,7 +18,7 @@ export function ContactForm(props) {
     <div className="container-parent">
       <h2 className="mb-3">Contact Us!</h2>
       <form onSubmit={onSubmit}>
-        <div className="name-fields">
+        <div className="inputGroup">
           <label className="form-label" htmlFor="name-first-label">
             First Name
           </label>
@@ -57,6 +57,6 @@ export function ContactForm(props) {
           {formStatus}
         </button>
       </form>
-    </div>
+</div>
   );
 }
