@@ -1,25 +1,29 @@
+.footer-div {
+    display: flex;
+    background-color: #3A5A40;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .footer-link {
     text-decoration: none;
     color: #DAD7CD;
-    display: flex;
-    align-items: center;
-    position: relative;
     max-width: 200px;
     padding-left: 2%;
     padding-right: 2%;
 }
 
-.footer-div {
-    background-color: #3A5A40;
-    text-align: center;
+.footer-page-links {
+    display: flex;
+    align-items: center;
     flex-direction: row;
 }
 
-.footer-page-links {
-    display: flex;
+.social-container {
+    align-items: center;
 }
-
-.social-container {}
 
 .social-container a {
     padding: 3px;
