@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faYoutube,
-    faFacebook,
+    faFacebookF,
     faTwitter,
     faInstagram,
     faLinkedinIn
@@ -34,20 +33,17 @@ export function Footer(props) {
                 </Link>
             </div>
             <div class="social-container">
-                <a href="https://www.youtube.com" className="youtube social">
-                    <FontAwesomeIcon icon={faYoutube} size="2x" />
+                <a href="https://www.facebook.com" class="social" id="facebook">
+                    <FontAwesomeIcon icon={faFacebookF} />
                 </a>
-                <a href="https://www.facebook.com" className="facebook social">
-                    <FontAwesomeIcon icon={faFacebook} size="2x" />
+                <a href="https://www.instagram.com" class="social" id="instagram">
+                    <FontAwesomeIcon icon={faInstagram} />
                 </a>
-                <a href="https://www.instagram.com" className="instagram social">
-                    <FontAwesomeIcon icon={faInstagram} size="2x" />
+                 <a href="https://www.linkedin.com" class="social" id="linkdin">
+                    <FontAwesomeIcon icon={faLinkedinIn} />
                 </a>
-                 <a href="https://www.linkedin.com" className="linkedin social">
-                    <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
-                </a>
-                <a href="https://www.twitter.com" className="twitter social">
-                    <FontAwesomeIcon icon={faTwitter} size="2x" />
+                <a href="https://www.twitter.com" class="social" id="twitter">
+                    <FontAwesomeIcon icon={faTwitter} />
                 </a>
             </div>            
         </div>

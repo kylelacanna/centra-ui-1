@@ -1,0 +1,22 @@
+.container-who-we-help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #588157;
+    margin-bottom: 10rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffff;
+}
+
+.icons div {
+    margin: 5rem;
+    padding: 5px;
+}
+
+.white {
+    color: #eee;
+}

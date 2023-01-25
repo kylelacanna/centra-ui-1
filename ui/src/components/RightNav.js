@@ -13,10 +13,13 @@ export function RightNav(props) {
           About Us
         </div>
       </Link>
-      <Link class="right-bar-link" to={`/contact`}>
+      <Link class="right-bar-link" to={`/whowehelp`}>
         <div class="right-bar-div">
-          Contact Us
+          Who We Help
         </div>
+      </Link>
+      <Link class="free-consultation"  to={`/contact`}>
+          free consultation
       </Link>
     </div>
 );

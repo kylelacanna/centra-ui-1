@@ -1,22 +1,29 @@
 import '../styles/Home.css';
-
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Roboto"></link>
 export function Home(props) {
   return (
+    
     <div class="container">
       <div class="top-container">
-        <div class="home-page-left-top">
-         <p>this is where rotataing intro text will go</p>
+        <div class="home-page-big-text">
+         <h1>expand your <mark>advertising</mark> <span><mark>Reach</mark> with our optimized</span> solutions</h1>
         </div>
-        <div class="home-page-right-top">
-          <p>this is where intro paragraph text will go</p>
+        <div class="big-text-caption">
+          <span>line 1</span>
+          <span>line 2</span>
+          <span>line 3</span>
+          <btn class="home-page-btn">
+            lets talk teamwork
+          </btn>
         </div>
       </div>
       <div class="middle-container">
-        <div class="home-page-left-middle">
-         <p>basic info</p>
+        <div class="middle-text">
+         basic info
         </div>
-        <div class="home-page-right-middle">
-          <p>paired graphic with info</p>
+        <div class="picture-middle">
+            <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" alt=""></img>
         </div>
       </div>
       <div class="bottom-container">
