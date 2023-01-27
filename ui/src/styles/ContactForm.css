@@ -2,59 +2,75 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    min-width: 400px;
+    background-color: #3A5A40;
 }
 
-.form-label {
-    padding-bottom: 20%;
+form {
+    width: 40%;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    border-radius: 40px;
 }
-
 
 textarea {
     border: none;
-    padding: 0;
+    padding: 8px;
     margin: 0;
     box-sizing: border-box;
     border: 2px solid #333;
     background-color: white;
-    border-radius: 0.25rem;
-}
-
-.inputGroup {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 1em 0 1em 0;
-    max-width: 190px;
-    position: relative;
-}
-
-.inputGroup input {
-    font-size: 100%;
-    padding: 0.8em;
-    outline: none;
-    border: 2px solid rgb(200, 200, 200);
-    background-color: transparent;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 100%;
 }
 
-.inputGroup label {
-    font-size: 100%;
-    position: absolute;
-    left: 0;
-    padding: 0.8em;
-    margin-left: 0.5em;
-    pointer-events: none;
-    transition: all 0.3s ease;
-    color: rgb(100, 100, 100);
+input {
+    border: 2px solid #3A5A40;
+    border-radius: 20px;
+    padding: 8px;
 }
 
-.inputGroup :is(input:focus, input:valid)~label {
-    transform: translateY(-50%) scale(.9);
-    margin: 0em;
-    margin-left: 1.3em;
-    padding: 0.4em;
-    background-color: #e8e8e8;
+select {
+    border: 2px solid #3A5A40;
+    border-radius: 20px;
+    padding: 10px;
 }
 
-.inputGroup :is(input:focus, input:valid) {
-    border-color: rgb(150, 150, 200);
+#email {
+    width: 100%;
+}
+
+#name-input-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-input {
+    width: 45%;
+}
+
+#budget-input {
+    width: 100%;
+}
+
+#submit-button {
+    border: 2px solid #3A5A40;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: #3A5A40;
+    color: white;
+    width: 30%;
+}
+
+#submit-button-div {
+    padding: 37px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact-page-title {
+    color: white;
+    font-size: 50px;
 }

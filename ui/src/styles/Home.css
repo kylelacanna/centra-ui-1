@@ -20,18 +20,26 @@ mark {
 .big-text-caption {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.big-text-caption span {
+    margin-top: 10px;
 }
 
 .home-page-btn {
     flex: 1 1 auto;
     margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
     padding: 10px;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     transition: 0.5s;
     border-radius: 10px;
     background-color: #588157;
-    /* background-image: linear-gradient(to right, #588157 0%, #9db89d 51%, #80ae7f 100%); */
     font-size: 17px;
     font-family: inherit;
     font-weight: 800;
@@ -53,14 +61,30 @@ p {
 .middle-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    background-color: lightgray;
+    background-color: #eeee;
+}
+
+.middle-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 700px;
+    text-transform: capitalize;
+}
+
+.middle-text h2 {
+    font-size: 350%;
+
+}
+
+.middle-text ul {
+    text-transform: none;
 }
 
 .picture-middle {
-    margin: 5rem;
-    padding-left: ;
+    padding: 20px;
 }
 
 .picture-middle img {
@@ -73,4 +97,29 @@ p {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.work-with-us {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us-btn {
+    width: 40%;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: #3A5A40;
+    font-size: 17px;
+    font-family: inherit;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
 }

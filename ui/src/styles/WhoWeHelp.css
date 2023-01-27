@@ -1,3 +1,12 @@
+.ecommerce-shout-out {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 5ch;
+    margin-bottom: 20vh;
+    margin-top: 15vh;
+}
+
 .container-who-we-help {
     display: flex;
     flex-direction: column;
@@ -6,17 +15,65 @@
     margin-bottom: 10rem;
 }
 
+.container-who-we-help h2 {
+    font-size: 6ch;
+}
+
 .icons {
     display: flex;
     flex-direction: row;
-    background-color: #ffff;
+    justify-content: space-evenly;
+    background-color: #588157;
+    align-items: center;
 }
 
 .icons div {
-    margin: 5rem;
+    width: 400px;
+    margin-right: 50px;
+    margin-bottom: 40px;
     padding: 5px;
+    background-color: white;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons div img {
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 10%;
+}
+
+.icons div span {
+    margin-bottom: 5vh;
 }
 
 .white {
     color: #eee;
+}
+
+.work-with-us {
+    margin-top: 20vh;
+    width: 100%;
+}
+
+.steps-backdrop {
+    background: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.steps {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.steps-text {
+    margin-left: 20vw;
+    display: flex;
+    flex-direction: column;
 }

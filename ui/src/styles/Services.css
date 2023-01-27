@@ -1,0 +1,65 @@
+.parent-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-container {
+    align-self: center;
+    width: 75%;
+}
+
+.top-container caption {
+    font-size: 3vh;
+    margin-bottom: 3vh;
+}
+
+.top-container .contact-us-btn {
+    margin-top: 3vh;
+    margin-bottom: 20vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#services-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(235, 235, 235);
+    width: 20%;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
