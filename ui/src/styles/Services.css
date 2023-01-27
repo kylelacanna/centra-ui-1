@@ -1,46 +1,47 @@
 .parent-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
-.top-container {
-    align-self: center;
+.services-top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-top-container h1 {
+    width: 80%;
+    font-size: 9ch;
+    margin-bottom: 6vh;
+}
+
+.services-top-container caption {
     width: 75%;
-}
-
-.top-container caption {
     font-size: 3vh;
     margin-bottom: 3vh;
 }
 
-.top-container .contact-us-btn {
+.services-top-container .contact-us-btn {
     margin-top: 3vh;
     margin-bottom: 20vh;
 }
 
+.services-middle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #eeee;
+}
 
+.services-middle-container h2 {
+    font-size: 4vh;
+    margin-left: 2vw;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.services-middle-container caption {
+    font-size: 2vh;
+    margin-left: 3vw;
+}
 
 #services-cards {
     display: flex;
@@ -54,12 +55,31 @@
     flex-direction: row;
     border: 2px solid black;
     border-radius: 20px;
-    background-color: rgb(235, 235, 235);
+    background-color: whtie;
     width: 20%;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
 }
 
 .card-content {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    align-items: center;
+}
+
+.card-content ul {
+    list-style: none;
+    align-self: flex-start;
+}
+
+.card-content li:before {
+    font-family: 'FontAwesome';
+    content: '\2714\0020';
+    margin: 0 5px 0 -15px;
+    color: green;
+}
+
+.card-content li {
+    margin-bottom: 2vh;
 }
