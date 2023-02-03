@@ -25,6 +25,7 @@
     justify-content: space-evenly;
     background-color: #588157;
     align-items: center;
+    text-align: center;
 }
 
 .icons div {
@@ -70,6 +71,17 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.steps-list ul {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15vh;
+}
+
+.steps-list ul a {
+    margin-top: 3vh;
+    font-size: 2.5ch;
 }
 
 .steps-text {

@@ -33,16 +33,16 @@ export function Footer(props) {
                 </Link>
             </div>
             <div class="social-container">
-                <a href="https://www.facebook.com" class="social" id="facebook">
+                <a href="https://www.facebook.com//profile.php?id=100089627808137" class="social" id="facebook">
                     <FontAwesomeIcon icon={faFacebookF} />
                 </a>
-                <a href="https://www.instagram.com" class="social" id="instagram">
+                <a href="https://www.instagram.com/centramarketing" class="social" id="instagram">
                     <FontAwesomeIcon icon={faInstagram} />
                 </a>
                  <a href="https://www.linkedin.com" class="social" id="linkdin">
                     <FontAwesomeIcon icon={faLinkedinIn} />
                 </a>
-                <a href="https://www.twitter.com" class="social" id="twitter">
+                <a href="https://www.twitter.com/centramrktingco" class="social" id="twitter">
                     <FontAwesomeIcon icon={faTwitter} />
                 </a>
             </div>            

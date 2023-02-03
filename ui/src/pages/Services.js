@@ -11,12 +11,14 @@ export function Services(props) {
                 </btn>
             </div>
             <div class="services-middle-container">
-                <div class="all-unique-text">
+                <div class="all-unique-text-container">
                     <h2>No Two Brands are Indentical</h2>
-                    <caption>bullshit</caption>
+                    <div class="all-unique-text">
+                        We understand that digital marketing can be a complicated space. That's why we're here to help. Our team consists of experts who have the knowledge and skills necessary to help you tackle the unique challenges that your company faces. Taking a comprehensive approach to digital marketing, considering your target audience, competition, and industry trends to develop a strategy that is tailored to your unique needs. Schedule a call today to see if we are the right fit to support your business growth and expansion goals!
+                    </div>
                     <br/>
                     <h2>Discover How Big Your Audience Can Be</h2>
-                    <caption>bullshitbullshitbullshitbullshitbullshitbullshit</caption>
+                    <div>Unlock the full potential of your online advertising efforts with our digital ad optimization models. After meeting with us, we will develop strategies that will help you reach your target audience with precision, resulting in increased engagement and business growth. Partner with us to drive measurable results and achieve your marketing objectives.</div>
                 </div>
             </div>
             <h1> What We Can Provide To Your Business</h1>

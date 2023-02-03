@@ -21,13 +21,13 @@ export function Home(props) {
       <div class="middle-container">
         <div class="middle-text">
          <h2>A service that will prove to be essential to your business</h2>
-         <span>text</span>
+         <h3>Centra uses a comprehensive approach to marketing. We will present solutions that can easily be integrated to your business with the expertise of our seasoned team, informed strategy, and advanced tools necessary for sustained success.</h3>
          <ul>
           <li><strong>Digital Advertisement Management</strong>: Spend less time managing your digital marketing content and efficiency increase your reach by outsourcing to our team of professionals. </li>
           <br/>
           <li><strong>Performance Data For Making Informed decisions</strong>: Entrusting us with the management of your media campaigns will yield valuable user insights for future marketing strategies.</li>
           <br/>
-          <li><strong>Comprehensive Assessment For Successful Campaigns</strong> :convincing text</li>
+          <li><strong>Comprehensive Assessment For Successful Campaigns</strong>: After working with us we will be able to provide our clients with use ful user feedback as to which campaigns we most effective in producing the desired result. </li> 
          </ul>
          <btn class="contact-us-btn">
             get my free marketing strategy

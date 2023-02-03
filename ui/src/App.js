@@ -7,6 +7,7 @@ import { Contact } from "./pages/Contact.js";
 import { WhoWeHelp } from "./pages/WhoWeHelp.js";
 import { NavBar } from "./components/NavBar.js";
 import { Footer } from "./components/Footer.js";
+import { Modal } from "./components/Modal.js";
 
 function App() {
   return (
