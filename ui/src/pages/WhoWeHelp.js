@@ -30,27 +30,48 @@ export function WhoWeHelp(props){
                     <h1>Our Recipe For Growth</h1>
                     <div class="steps">
                         <div class="steps-list">
-                            <ul>
-                                <a>Friendly Chat</a>
-                                <a>Team Discussion</a>
-                                <a>Strategy Talk</a>
-                                <a>Full Rollout</a>
-                                <a>Optimization and Growth</a>
-                            </ul>
-                        </div>
-                        <div class="steps-text">
-                            <span>text goes here</span>
-                            {/* <btn onClick={()=> setShow(true)} class="home-page-btn">
-                                lets talk teamwork
-                            </btn>
-                            <Modal onClose={() => setShow(false)} show={show}/> */}
+                            <div class="row">
+                                <div>
+                                    <h2> Friendly Chat</h2>
+                                    <p>We’ll start by having a quick phone call talking  about what your challenges are right now, what you’ve tried so far, and if we're the right Ad management marketing agency for you. No hard selling. Promise.</p>
+                                </div>
+                                <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" width="150" alt=""></img>
+                            </div>
+                            <div class="row">
+                            <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" width="150" alt=""></img>
+                                <div>
+                                    <h2> Team Discussion</h2>
+                                    <p>After our team has had a chance to speak with you and yours, we will meet privatly and come up with soluitons that we think could help your business reach its' goals. We develop a customized management strategy for each of our clients to ensure desired results.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div>
+                                    <h2> Strategy Talk</h2>
+                                    <p>Once our team has developed a comprehensive marketing strategy for you we will meet again to discuss if you would like to move forward with Centra, or in another direction. Either way you keep the marketing plan!</p>
+                                </div>
+                                <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" width="150" alt=""></img>
+                            </div>
+                            <div class="row">
+                            <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" width="150" alt=""></img>
+                                <div>
+                                    <h2> Full Rollout</h2>
+                                    <p>This is where we will implement our comprehensive plan with a focus on prompt, strategic execution and the eventual goal of scalable growth. This will afford you the ability to redirect your attention to other critical aspects of your business and focus on what matters.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div>
+                                    <h2>Optimization and Growth</h2>
+                                    <p>Our digital marketing team will evaluate your progress daily throughout the entire process and utilize that information to drive even greater successes for you and your business. Our goal is to provide a service that allows our clients to focus on other aspects of life and completely offload digital ad management.</p>
+                                </div>
+                                <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" width="150" alt=""></img>
+                            </div>
                         </div>
                     </div>
                     
                 </div>
                 
                 <div class="work-with-us">
-                    <h1>Work With Us.</h1>
+                    <h1>Work With Us.</h1> 
                     <btn class="contact-us-btn">
                         Contact Us
                     </btn>

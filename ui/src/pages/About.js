@@ -20,6 +20,26 @@ export function About(props) {
             <btn class="home-page-btn">
                 Together We Will succeed
             </btn>
+            <div class="more-details">
+                <h2>You work everyday on your passion, here is ours.</h2>
+                <div class="section">
+                    <h4>Encouraging mutual critical thinking</h4> 
+                    <span>We debate as many potential solutions as possible and by actively exploring potential solutions through engaged conversation, our team is able to think more deeply and productively. We reject the notion of offering a cookie-cutter product as it would be a waste of both time and resources.</span>
+                </div>
+                <div class="section">
+                    <h4>Embracing early and frequent experimentation.</h4> 
+                    <span>text</span>
+                </div>
+                <div class="section">
+                    <h4>Use collaboration to ensure success</h4> 
+                    <span>text</span>
+                </div>
+                <div class="section">
+                    <h4>Hitting our mark every time</h4> 
+                    <span>text</span>
+                </div>
+
+            </div>
         </div>
     );
 }
