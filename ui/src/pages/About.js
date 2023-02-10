@@ -6,39 +6,45 @@ export function About(props) {
             <h3>How Centra Came To Be</h3>
             <div class="about-top-container">
                 <div class="about-image-container">
-                    <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" width="150" alt=""></img>
+                    <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" width="1000" height="500" alt=""></img>
                 </div>
                 <div class="about-us-text">
-                    <span>Cenra was founded with one mission in mind, to help and assist business in a space where they are new.</span><br/>
-                    <span>Our founders saw a need for advertising Optimization and management in the digital world and we work hard everyday to ensure that our customers have every advantage possible to allow them to succeed in achieving their goals.</span><br/>
-                    <span>In late 2022 we began our journey building our services to meet the high standards we set for ourselves.</span><br/>
-                    <span>Today we are happy to offer assitance to our customers on a number of major digital platforms in order to make certain that our customers recieve added value that otherwise would have been unobtainable.</span>
+                    <span>Cenra was founded with one mission in mind, to help and assist business in a space where they are new. Our founders saw a need for advertising Optimization and management in the digital world and we work hard everyday to ensure that our customers have every advantage possible to allow them to succeed in achieving their goals.</span><br/><br/>
+                    <span>In late 2022 we began our journey building our services to meet the high standards we set for ourselves.</span><br/><br/>
+                    <span>Today we are happy to offer assitance to our clients on a number of major digital platforms in order to make certain that our clients recieve added value that otherwise would have been unobtainable.</span>
                 </div>
-                
-               
             </div>
-            <btn class="home-page-btn">
+            <btn class="about-page-btn">
                 Together We Will succeed
             </btn>
             <div class="more-details">
                 <h2>You work everyday on your passion, here is ours.</h2>
-                <div class="section">
+                <div class="section1">
                     <h4>Encouraging mutual critical thinking</h4> 
-                    <span>We debate as many potential solutions as possible and by actively exploring potential solutions through engaged conversation, our team is able to think more deeply and productively. We reject the notion of offering a cookie-cutter product as it would be a waste of both time and resources.</span>
+                    <p>We debate as many potential solutions as possible and by actively exploring potential solutions through engaged conversation, our team is able to think more deeply and productively. We reject the notion of offering a cookie-cutter product as it would be a waste of both time and resources.</p>
                 </div>
-                <div class="section">
-                    <h4>Embracing early and frequent experimentation.</h4> 
-                    <span>text</span>
+                <div class="section2" >
+                    <h4>Embracing early and frequent experimentation</h4> 
+                    <p>No organization is imcapabile of change when the goal is expansion. With this in mind we hold ourselves to the highest standard and refuse to miss any details that would enable our clients to achieve their goals. Our campaigns launch on time and on budget, everytime. Every aspect of our work is thoroughly scrutinized, tested, and refined to attain perfection. </p>
                 </div>
-                <div class="section">
+                <div class="section3">
                     <h4>Use collaboration to ensure success</h4> 
-                    <span>text</span>
+                    <p>With our team there is no goal that cannot be accomplished! We will work daily to ensure that your return on investment is at a level which you are happy with. If we were to see a metric dip, the reaction is to get in a meeting and figure out the correct course of action to directly address and fix the cause of thet issue.</p>
                 </div>
-                <div class="section">
+                <div class="section4" hidden='hidden'>
                     <h4>Hitting our mark every time</h4> 
                     <span>text</span>
                 </div>
-
+                <div class="section5">
+                    <h4>Passion to help Business</h4> 
+                    <p>Centra was founded with the idea that our team could assist business in a digital space in which they are not savvy. Our joy and passion from providing this service comes from watching our clients reach thier goals and achieve what they truly want in life. If we can help our clients do that, Centra has fufilled its purpose. </p>
+                </div>
+                <div class="work-with-us">
+                    <h1>Work With Us.</h1>
+                    <btn class="contact-now-btn">
+                        Contact Now
+                    </btn>
+                </div>
             </div>
         </div>
     );

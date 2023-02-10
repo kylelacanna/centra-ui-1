@@ -43,6 +43,21 @@
     margin-left: 3vw;
 }
 
+.all-unique-text {
+    width: 80%;
+    padding-left: 3vw;
+    font-size: 3ch;
+}
+
+.discover-text {
+    width: 80%;
+    padding-left: 3vw;
+    margin-bottom: 4vh;
+    font-size: 3ch;
+
+}
+
+
 #services-cards {
     display: flex;
     justify-content: space-evenly;

@@ -5,8 +5,8 @@ export function Services(props) {
         <div class="parent-container">
             <div class="services-top-container">
                 <h1><mark>Ecommerce</mark> Marketing Services Centered for <mark>Profit Growth</mark></h1>
-                <caption>Centra Marketing is an ecommerce focused Marketing Agency that specializes in crafting effective campaigns for maximum impact, with a focus on driving business growth and increasing revenue. </caption>
-                <btn class="contact-us-btn">
+                <caption>Centra Marketing is an ecommerce focused Marketing Agency that specializes in crafting effective campaigns for maximum impact, with a speacialty in driving business growth and increasing revenue. </caption>
+                <btn class="contact-now-btn">
                     Get My Free Ecommerce Marketing Strategy
                 </btn>
             </div>
@@ -16,9 +16,11 @@ export function Services(props) {
                     <div class="all-unique-text">
                         We understand that digital marketing can be a complicated space. That's why we're here to help. Our team consists of experts who have the knowledge and skills necessary to help you tackle the unique challenges that your company faces. Taking a comprehensive approach to digital marketing, considering your target audience, competition, and industry trends to develop a strategy that is tailored to your unique needs. Schedule a call today to see if we are the right fit to support your business growth and expansion goals!
                     </div>
-                    <br/>
+                        <br/>
                     <h2>Discover How Big Your Audience Can Be</h2>
-                    <div>Unlock the full potential of your online advertising efforts with our digital ad optimization models. After meeting with us, we will develop strategies that will help you reach your target audience with precision, resulting in increased engagement and business growth. Partner with us to drive measurable results and achieve your marketing objectives.</div>
+                    <div class="discover-text">
+                        Unlock the full potential of your online advertising efforts with our digital ad optimization models. After meeting with us, we will develop strategies that will help you reach your target audience with precision, resulting in increased engagement and business growth. Partner with us to drive measurable results and achieve your marketing objectives.
+                    </div>
                 </div>
             </div>
             <h1> What We Can Provide To Your Business</h1>
@@ -31,9 +33,8 @@ export function Services(props) {
                         <p>Leave your social media advertising in the hands of our professional team, who will take care of posting giving you the freedom to focus on other areas of your business. We provide:</p>           
                         <ul>
                             <li>Facebook:</li>
-                            <li>LinkedIn:</li>
+                            <li hidden='hidden'>LinkedIn:</li>
                             <li>Instagram:</li>
-                            <li>bullshit</li>
                         </ul>
                     </div>
                 </div>

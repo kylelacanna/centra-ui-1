@@ -1,5 +1,4 @@
 import '../styles/Home.css';
-import { FaPlus } from "react-icons/fa";
 import React, { useState, useRef, useEffect } from "react";
 
 <link rel="stylesheet"
@@ -28,7 +27,7 @@ export function Home(props) {
         <div class="big-text-caption">
           <span>We are not your usual digital marketing agency.</span>
           <span>We refuse to settle for the bare minmum.</span>
-          <span>We will customize a optimization plan specifically for your thriving business</span>
+          <span>We will customize an optimization  marketing plan specifically for your thriving business</span>
           <btn class="home-page-btn">
             lets talk teamwork
           </btn>
@@ -96,7 +95,7 @@ You don’t have to be an ad expert or have a technical background when using In
             </ul>
           </div>
         </div>
-        <div class="card" id="card-1">
+        {/* <div class="card" id="card-1">
           <div class="card-content">
             <h2>Linkedin</h2>
               <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" width="150" alt=""></img>
@@ -107,7 +106,7 @@ You don’t have to be an ad expert or have a technical background when using In
               <li>text</li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
         <div class="faq">
           
@@ -115,43 +114,44 @@ You don’t have to be an ad expert or have a technical background when using In
           <button class="accordion" onClick={toggleAccordion}>Will you take a look at my account before I get started?</button>
           <div class="panel">
             
-            {/* <FaPlus
+            {/* <fa-plus
                   className={active ? `question-icon rotate` : `question-icon`}
                 /> */}
+                <i class="fa fa-plus" aria-hidden="true" ></i>
                 <div ref={contentRef} classname={active ? `answer answer-divider` : `answer`}>
-                  <p>Lorem ipsum...</p>
+                  <p>Yes! We would be happy to perform a free audit of your accounts and marketing material to see if our services might work for you. At Centra we believe in adding value in any way we can.</p>
                 </div>
           </div>
 
           <button class="accordion">How long are your contracts?</button>
           <div class="panel">
-            <p>Lorem ipsum...</p>
+                <span>Our contracts start at six months. We also offer eight months and one year spans. We prove our value each and every day and we aim to build long lasting partnerships that way.</span>
           </div>
 
           <button class="accordion">How much money do I need to spend on ads?</button>
           <div class="panel">
-            <p>Lorem ipsum...</p>
+            <p>We recommend a minimum of $8,000 per platform. This will allow our team to confidently curate a custom digital marketing strategy that will integrate seamlessly with Meta and Google alorithms. Anything under these minimums will leave holes in key sectors that are vital to our performace and optimization models.</p>
           </div>
           <button class="accordion">Who does the work on my accounts?</button>
           <div class="panel">
-            <p>Lorem ipsum...</p>
+            <p>All of our accounts here at Centra are managed and optimized by our team of seasoned marketing experts. Each of our team memebers has extensive exprience in digital marketing services and we look forward to assisting you in your endevors.</p>
           </div>
-          <button class="accordion">Do I own the ads you build or do you keep them?</button>
+          <button class="accordion">Do I own the ads or do you keep them?</button>
           <div class="panel">
-            <p>Lorem ipsum...</p>
+            <p>You will always maintain full ownership of all accounts, ads, and any other related marketing material. We help set up and manage your accounts once you have authorized us to do so. You will always keep everything.</p>
           </div>
           <button class="accordion">Do you offer creative services?</button>
           <div class="panel">
-            <p>Lorem ipsum...</p>
+            <p>Centra is proud to be partnered with international creative agencies and we would be happy to provide a variety of options based on our clients needs. To be clear, Centra istself does not specialize in the creative aspect of digital marketing, as we prefer to focus on management and optimization of the ads themselves.</p>
           </div>
           <button class="accordion">How do I get started?</button>
           <div class="panel">
-            <p>Lorem ipsum...</p>
+            <p>Just fill out a contact form by clicking the button below or by selecting 'Contact Us' from the menu. We look forward to speaking wtih you!</p>
           </div>
         </div>
         <div class="work-with-us">
           <h1>Work With Us.</h1>
-          <btn class="contact-us-btn">
+          <btn class="contact-now-btn">
               Contact Us
           </btn>
         </div>
