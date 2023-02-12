@@ -5,7 +5,7 @@ export function WhoWeHelp(props){
     return (
         <div>
             <div class="ecommerce-shout-out">
-                <h1>dedicated to <mark>helping businesses</mark> with <br/>an online presence <mark>expand</mark> their reach</h1>
+                <h1 class="who-we-help-h1">dedicated to <mark>helping businesses</mark> with <br/>an online presence <mark>expand</mark> their reach</h1>
             </div>
             <div class="container-who-we-help">
                <h2><mark class="white">Highlighting</mark> our values, goals, and <mark class="white">our objectives</mark></h2>
@@ -33,7 +33,7 @@ export function WhoWeHelp(props){
                             <div class="row">
                                 <div>
                                     <h2> Friendly Chat</h2>
-                                    <p>We’ll start by having a quick phone call talking  about what your challenges are right now, what you’ve tried so far, and if we're the right Ad management marketing agency for you. No hard selling. Promise.</p>
+                                    <p>We’ ll start by having a quick phone call talking  about what your challenges are right now, what you’ve tried so far, and if we're the right Ad management marketing agency for you. No hard selling. Promise.</p>
                                 </div>
                                 <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" width="150" alt=""></img>
                             </div>
@@ -72,7 +72,7 @@ export function WhoWeHelp(props){
                 
                 <div class="work-with-us">
                     <h1>Work With Us.</h1> 
-                    <btn class="contact-us-btn">
+                    <btn class="contact-now-btn">
                         Contact Us
                     </btn>
                 </div>

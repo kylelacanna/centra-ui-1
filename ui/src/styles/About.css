@@ -46,8 +46,8 @@
   .more-details h2 {
       font-size: 5vh;
       padding-left: 3vw;
-      background-color: #3A5A40;
-      color: white;
+      background-color: white;
+      color: #3A5A40;
       margin-bottom: none;
       padding-bottom: 1vh;
   }
