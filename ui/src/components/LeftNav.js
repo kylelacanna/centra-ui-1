@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
+import logo from "../images/logo_c.png";
+
 export function LeftNav(props) {
   return (
     <Link class="left-bar-link" to={`/`}>
       <div class="left-bar-div">
-        {/* <img src="../assests/logo_mockup_bird.png" height="40px"/>
-        <img src="../assests/possible_centra_logo.png"/>         */}
-        <h2>centra</h2>
+        <div class="logo">
+          <img src={logo} alt="logo" style={{ width: 60, height: 60, paddingRight:10}}/>
+        </div>
       </div>
     </Link>
   );

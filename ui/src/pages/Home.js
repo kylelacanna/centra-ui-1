@@ -22,12 +22,12 @@ export function Home(props) {
     <div class="container">
       <div class="top-container">
         <div class="home-page-big-text">
-         <h1>expand your <mark>advertising</mark> <span><mark>Reach</mark> with our optimized</span> solutions</h1>
+         <h1 class="home-page-header">Expand Your <mark>Advertising</mark> <span><mark>Reach</mark> With Our Optimized</span> Solutions</h1>
         </div>
         <div class="big-text-caption">
           <span>We are not your usual digital marketing agency.</span>
           <span>We refuse to settle for the bare minmum.</span>
-          <span>We will customize an optimization  marketing plan specifically for your thriving business</span>
+          <span>We will customize an optimization  marketing plan specifically for your thriving business.</span>
           <btn class="home-page-btn">
             lets talk teamwork
           </btn>

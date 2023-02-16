@@ -12,6 +12,10 @@
     width: 50%;
 }
 
+.home-page-header {
+    text-align: center;
+}
+
 mark {
     color: #3A5A40;
     background-color: transparent;
