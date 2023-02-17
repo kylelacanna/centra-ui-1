@@ -2,8 +2,6 @@
     text-align: center;
 }
 
-
-
 .ecommerce-shout-out {
     display: flex;
     flex-direction: row;
@@ -17,7 +15,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #588157;
+    background-color: white;
     margin-bottom: 10rem;
 }
 
@@ -29,24 +27,27 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: #588157;
+    background-color: white;
     align-items: center;
     text-align: center;
 }
 
-.icons div {
-    width: 25vw;
-    height: 60vh;
-    margin-right: 50px;
-    margin-bottom: 40px;
-    padding: 5px;
-    background-color: white;
-    border-radius: 10%;
-    border-color: white;
+.icon {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 20vw;
+    height: 60vh;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    margin-bottom: 15vh;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 30px;
+    border: solid;
+    border-color: lightgray;
 }
+
 
 .icons div img {
     width: 200px;
@@ -68,10 +69,17 @@
 }
 
 .steps-backdrop {
-    background: white;
+    background: #f0f0f0;
     width: 100%;
     display: flex;
     flex-direction: column;
+}
+
+.steps-backdrop h1 {
+    align-self: center;
+    font-size: 8ch;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .steps {
@@ -85,6 +93,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .row {
@@ -92,6 +101,57 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    width: 60%;
+    margin-bottom: 4vh;
+}
+
+.row p {
+    font-size: 2.5ch;
+    width: 50%;
+}
+
+.row div {
+    width: 50%;
+}
+
+.row div:nth-child(even) {
+    margin-left: 5vw;
+}
+
+.row div span {
+    --b: 5px;
+    /* thickness of the border */
+    --c: #588157;
+    /* color of the border */
+    --w: 20px;
+    /* width of border */
+
+
+    border: var(--b) solid #0000;
+    /* space for the border */
+    --_g: #0000 90deg, var(--c) 0;
+    --_p: var(--w) var(--w) border-box no-repeat;
+    background:
+        conic-gradient(from 90deg at top var(--b) left var(--b), var(--_g)) 0 0 / var(--_p),
+        /* conic-gradient(from 180deg at top var(--b) right var(--b), var(--_g)) 100% 0 / var(--_p), */
+        /* conic-gradient(from 0deg at bottom var(--b) left var(--b), var(--_g)) 0 100% / var(--_p), */
+        conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--_g)) 100% 100% / var(--_p);
+
+    /*Irrelevant code*/
+    width: 2ch;
+    height: inherit;
+    box-sizing: border-box;
+    margin: 5px;
+    display: inline-flex;
+    font-size: 2ch;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hexagon {
+    -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
@@ -121,4 +181,22 @@
     color: black;
     display: none;
     overflow: hidden;
+}
+
+.get-specfic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.get-specfic h1 {
+    font-size: 4.5ch;
+}
+
+.get-specfic span {
+    font-size: 3ch;
+    width: 60%;
 }
