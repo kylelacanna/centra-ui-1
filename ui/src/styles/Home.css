@@ -50,6 +50,23 @@ mark {
     color: rgb(255, 255, 255);
 }
 
+.free-strat-btn {
+    flex: 1 1 auto;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: #588157;
+    font-size: 3ch;
+    font-family: inherit;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+
 .who-we-help-h1 {
     text-transform: capitalize;
     text-align: center;
@@ -79,12 +96,26 @@ p {
 }
 
 .middle-text h2 {
-    font-size: 350%;
+    font-size: 6ch;
+}
 
+.washiington-grayscale {
+    background-image: url("../images/washington_skyline.jpg");
+    filter: grayscale(100%);
+    width: 100%;
+}
+
+.middle-text span {
+    font-size: 3ch;
+    width: 50vw;
 }
 
 .middle-text ul {
     text-transform: none;
+}
+
+.middle-text li {
+    font-size: 2.3ch;
 }
 
 .picture-middle {
@@ -94,6 +125,14 @@ p {
 .picture-middle img {
     width: 720px;
     height: inherit;
+}
+
+.bottom-header {
+    text-align: center;
+}
+
+.bottom-header h2 {
+    font-size: 6ch;
 }
 
 .bottom-container {

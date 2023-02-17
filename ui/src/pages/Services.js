@@ -4,7 +4,7 @@ export function Services(props) {
     return (
         <div class="parent-container">
             <div class="services-top-container">
-                <h1><mark>Ecommerce</mark> Marketing Services Centered for <mark>Profit Growth</mark></h1>
+                <h1><mark>Ecommerce</mark> Marketing Services<br/> Centered for <mark>Profit Growth</mark></h1>
                 <caption>Centra Marketing is an ecommerce focused Marketing Agency that specializes in crafting effective campaigns for maximum impact, with a speacialty in driving business growth and increasing revenue. </caption>
                 <btn class="contact-now-btn">
                     Get My Free Ecommerce Marketing Strategy
@@ -23,7 +23,9 @@ export function Services(props) {
                     </div>
                 </div>
             </div>
-            <h1> What We Can Provide To Your Business</h1>
+            <div class="bottom-container-header">
+                <h1> What We Can <mark>Provide</mark> To Your <mark>Business</mark></h1>
+            </div>
              <div id="services-cards">
                 
                 <div class="card" id="card-1">

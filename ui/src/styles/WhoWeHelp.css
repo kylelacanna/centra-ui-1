@@ -1,3 +1,9 @@
+.services-top-container {
+    text-align: center;
+}
+
+
+
 .ecommerce-shout-out {
     display: flex;
     flex-direction: row;

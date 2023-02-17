@@ -1,15 +1,16 @@
 import '../styles/About.css';
+import wash from '../images/washington_skyline.jpg';
 
 export function About(props) {
     return (
         <div class="about-container">
-            <h3>How Centra Came To Be</h3>
+            <h3>How <mark>Centra</mark> Came To Be</h3>
             <div class="about-top-container">
                 <div class="about-image-container">
-                    <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" width="1000" height="500" alt=""></img>
+                    <img src={wash} width="1000" height="500" alt=""></img>
                 </div>
                 <div class="about-us-text">
-                    <span>Cenra was founded with one mission in mind, to help and assist business in a space where they are new. Our founders saw a need for advertising Optimization and management in the digital world and we work hard everyday to ensure that our customers have every advantage possible to allow them to succeed in achieving their goals.</span><br/><br/>
+                    <span>Centra was founded in our nations captial with one mission in mind, to help and assist business in a space where they are inexpirenced. Our founders saw a need for advertising optimization and management in the digital world and we work hard everyday to ensure that our clients have every advantage possible to allow them to succeed in achieving their goals.</span><br/><br/>
                     <span>In late 2022 we began our journey building our services to meet the high standards we set for ourselves.</span><br/><br/>
                     <span>Today we are happy to offer assitance to our clients on a number of major digital platforms in order to make certain that our clients recieve added value that otherwise would have been unobtainable.</span>
                 </div>

@@ -1,6 +1,7 @@
 import '../styles/Home.css';
 import React, { useState, useRef, useEffect } from "react";
 
+
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css?family=Lora"></link>
 export function Home(props) {
@@ -35,8 +36,10 @@ export function Home(props) {
       </div>
       <div class="middle-container">
         <div class="middle-text">
-         <h2>services that will prove to be essential to your business</h2>
-         <h3>Centra uses a comprehensive approach to marketing. We will present solutions that can easily be integrated to your business with the expertise of our seasoned team, informed strategy, and advanced tools necessary for sustained success.</h3>
+        <div class="wasington-grayscale">
+         <h2><mark>services</mark> that will prove to be <mark>essential</mark> to your business</h2>
+        </div>
+         <span>Centra uses a comprehensive approach to marketing. presenting solutions that can easily be integrated to your business with the expertise of our team we can help achieve sustained success for you.</span>
          <ul>
           <li><strong>Digital Advertisement Management</strong>: Spend less time managing your digital marketing content and efficiency increase your reach by outsourcing to our team of professionals. </li>
           <br/>
@@ -44,7 +47,7 @@ export function Home(props) {
           <br/>
           <li><strong>Comprehensive Assessment For Successful Campaigns</strong>: After working with us we will be able to provide our clients with use ful user feedback as to which campaigns we most effective in producing the desired result. </li> 
          </ul>
-         <btn class="contact-us-btn">
+         <btn class="free-strat-btn">
             get my free marketing strategy
         </btn>
         </div>
@@ -52,8 +55,9 @@ export function Home(props) {
             <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" alt=""></img>
         </div>
       </div>
-      <h2>We are pleased to offer services on major platforms</h2>
-
+      <div class="bottom-header">
+          <h2>We are pleased to offer services on <mark>major platforms</mark></h2>
+      </div>
       <div class="bottom-container">
         <div class="card" id="card-1">
           <div class="card-content">
