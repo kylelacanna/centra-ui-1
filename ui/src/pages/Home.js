@@ -36,9 +36,7 @@ export function Home(props) {
       </div>
       <div class="middle-container">
         <div class="middle-text">
-        <div class="wasington-grayscale">
          <h2><mark>services</mark> that will prove to be <mark>essential</mark> to your business</h2>
-        </div>
          <span>Centra uses a comprehensive approach to marketing. presenting solutions that can easily be integrated to your business with the expertise of our team we can help achieve sustained success for you.</span>
          <ul>
           <li><strong>Digital Advertisement Management</strong>: Spend less time managing your digital marketing content and efficiency increase your reach by outsourcing to our team of professionals. </li>
@@ -113,11 +111,9 @@ You don’t have to be an ad expert or have a technical background when using In
         </div> */}
       </div>
         <div class="faq">
-          
-          <h2>You have questions? We have answers.</h2>
+          <h2>You Have <mark class="white">Questions?</mark> We Have <mark class="white">Answers</mark></h2>
           <button class="accordion" onClick={toggleAccordion}>Will you take a look at my account before I get started?</button>
           <div class="panel">
-            
             {/* <fa-plus
                   className={active ? `question-icon rotate` : `question-icon`}
                 /> */}

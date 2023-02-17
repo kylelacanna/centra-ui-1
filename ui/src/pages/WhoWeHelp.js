@@ -68,7 +68,7 @@ export function WhoWeHelp(props){
                             </div>
                             <div class="row">
                                 <div>
-                                    <h2><span>5</span>   Optimization and Growth</h2>
+                                    <h2><span>5</span>Grow and Optimize</h2>
                                     <p>Our digital marketing team will evaluate your progress daily throughout the entire process and utilize that information to drive even greater successes for you and your business. Our goal is to provide a service that allows our clients to focus on other aspects of life and completely offload digital ad management.</p>
                                 </div>
                                 <div class="hexagon">

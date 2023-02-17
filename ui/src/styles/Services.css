@@ -76,11 +76,10 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    border: 2px solid black;
-    border-radius: 20px;
-    background-color: whtie;
+    border: 2px solid lightgray;
+    border-radius: 30px;
     width: 20%;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
     margin-top: 5vh;
 }
 
@@ -89,16 +88,25 @@
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: left;
+}
+
+.card-content h2 {
+    font-size: 3ch;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 .card-content p {
     text-align: left;
+    font-size: 2.3ch;
+    text-align: center;
 }
 
 .card-content ul {
     list-style: none;
     align-self: flex-start;
+    padding-right: 1vw;
 }
 
 .card-content li:before {
@@ -110,4 +118,5 @@
 
 .card-content li {
     margin-bottom: 2vh;
+    margin-top: 2vh;
 }

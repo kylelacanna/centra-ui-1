@@ -96,26 +96,29 @@ p {
 }
 
 .middle-text h2 {
-    font-size: 6ch;
-}
-
-.washiington-grayscale {
-    background-image: url("../images/washington_skyline.jpg");
-    filter: grayscale(100%);
-    width: 100%;
+    font-size: 8ch;
+    width: 150%;
 }
 
 .middle-text span {
-    font-size: 3ch;
-    width: 50vw;
+    font-size: 3.8ch;
+    width: 140%;
 }
 
 .middle-text ul {
     text-transform: none;
+    list-style: none;
+}
+
+.middle-text li:before {
+    font-family: 'FontAwesome';
+    content: '\2714\0020';
+    margin: 0 5px 0 -15px;
+    color: green;
 }
 
 .middle-text li {
-    font-size: 2.3ch;
+    font-size: 2.8ch;
 }
 
 .picture-middle {
@@ -129,6 +132,7 @@ p {
 
 .bottom-header {
     text-align: center;
+    text-transform: capitalize;
 }
 
 .bottom-header h2 {
@@ -140,6 +144,63 @@ p {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.bottom-container .card {
+    width: 25%;
+    height: 80vh;
+}
+
+.bottom-container .card-content p {
+    font-size: 3ch;
+}
+
+.bottom-container .card-content li {
+    font-size: 2.5ch;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3A5A40;
+}
+
+.faq h2 {
+    font-size: 8ch;
+
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #3A5A40;
+    color: #eee;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: .8s;
+    font-size: 4ch;
+    text-align: center;
+
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+    background-color: #eee;
+    color: black;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: #eee;
+    color: black;
+    display: none;
+    overflow: hidden;
 }
 
 .work-with-us {
