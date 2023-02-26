@@ -15,9 +15,9 @@ export function About(props) {
                     <span>Today we are happy to offer assitance to our clients on a number of major digital platforms in order to make certain that our clients recieve added value that otherwise would have been unobtainable.</span>
                 </div>
             </div>
-            <btn class="about-page-btn">
+            <button class="about-page-btn">
                 Together We Will succeed
-            </btn>
+            </button>
             <div class="more-details">
                 <h2>You work everyday on your passion, here is ours.</h2>
                 <div class="section1">
@@ -42,9 +42,9 @@ export function About(props) {
                 </div>
                 <div class="work-with-us">
                     <h1>Work With Us.</h1>
-                    <btn class="contact-now-btn">
+                    <button class="contact-now-btn">
                         Contact Now
-                    </btn>
+                    </button>
                 </div>
             </div>
         </div>

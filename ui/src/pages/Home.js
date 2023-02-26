@@ -29,10 +29,33 @@ export function Home(props) {
           <span>We are not your usual digital marketing agency.</span>
           <span>We refuse to settle for the bare minmum.</span>
           <span>We will customize an optimization  marketing plan specifically for your thriving business.</span>
-          <btn class="home-page-btn">
+          <button class="home-page-btn">
             lets talk teamwork
-          </btn>
+          </button>
         </div>
+      </div>
+      <div class="we-are-centra-container">
+        <div class="left-side-we-are-centra">
+        <div class="we-are-centra-text-container">
+          <div class="header-container-we-are-centra">
+            <h2>WE ARE</h2>
+            <h1><mark>CENTRA</mark></h1>
+          </div>
+          <h3 class="we-are-centra-caption">
+           We assist business owners scale their already successful endevors by maximixing their marketing dollars and getting thier campaigns in front of the new loyal cusotmers we will find for you.
+          </h3>
+          <p class="we-are-centra-caption-2">
+              We work with brands to help expand their online presence and imporve their overall revanue throught optimized management of Meta and Google ads. If you are looking to offload your marketing efforts to exprienced experts to create an all-inclusive marketing enviorment built for scale? We are here to help.
+          </p>
+          <button class="we-are-centra-btn">Learn More</button>
+        </div>
+        </div>
+        <div class="right-side-we-are-centra">
+          <img src="https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_960_720.jpg"></img>
+
+          <img src="https://cdn.pixabay.com/photo/2017/08/01/00/38/man-2562325_960_720.jpg" alt=""></img>
+        </div>
+
       </div>
       <div class="middle-container">
         <div class="middle-text">
@@ -45,71 +68,32 @@ export function Home(props) {
           <br/>
           <li><strong>Comprehensive Assessment For Successful Campaigns</strong>: After working with us we will be able to provide our clients with use ful user feedback as to which campaigns we most effective in producing the desired result. </li> 
          </ul>
-         <btn class="free-strat-btn">
+         <button class="free-strat-btn">
             get my free marketing strategy
-        </btn>
+        </button>
         </div>
         <div class="picture-middle">
             <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" alt=""></img>
         </div>
       </div>
-      <div class="bottom-header">
-          <h2>We are pleased to offer services on <mark>major platforms</mark></h2>
-      </div>
-      <div class="bottom-container">
-        <div class="card" id="card-1">
-          <div class="card-content">
-            <h2>Google</h2>
-            <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" width="150" alt=""></img>
-            <p>Being the largest internet search provider in the world Google is a platform that will ensure that anyone can have access to your business' online presence. Allow our team of experts to handle a custom PPC strategy that will help you reach your goals.</p>           
-            <ul>
-              <li>Using targeted marketing to grow you a loyal audience</li>
-              <li>Leave campaign management to the experts</li>
-              <li>Any budget can work to grow your business</li>
-              <li>See faster results with Google SEO</li>
-              <li>Use CPC, CPM, or CPA strategies to build a brand</li>
-            </ul>
-          </div>
-        </div>
-        <div class="card" id="card-1">
-          <div class="card-content">
-            <h2>Facebook</h2>
-            <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" width="150" alt=""></img>
-            <p>Facebook has established itself as a leading marketing platform, with over 2.7 billion active users, making it a formidable advertising network suitable for various business types.</p>           
-            <ul>
-              <li>Maximize your content marketing strategy with Facebooks' amazing CPC</li>
-              <li>Facebook offers unmatched analytics allowing you to fine tune your content</li>
-              <li>With Facebooks' advanced tageting abilites we can go directly to your audience</li>
-              <li>Outcompete organic reach with our teams' Facebook optimized models</li>
-            </ul>
-          </div>
-        </div>
-        <div class="card" id="card-1">
-          <div class="card-content">
-            <h2>Instagram</h2>
-            <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" width="150" alt=""></img>
-            <p>Instagram ads can be the first step for many businesses to get into the world of social media marketing. 
-You don’t have to be an ad expert or have a technical background when using Instagram advertising. Luckily our experts do and are here to assist you and your business in any way.</p>           
-            <ul>
-              <li>Gain access to another 2.5 billion users when beginning adversiting on instagram</li>
-              <li>A key advantage that instagram has over other platforms are shorts and </li>
-              <li>Lookalike and interest based prospecting to make data-driven decisions that goes after a strategic group of individuals that may be interested in your brand.</li>
-            </ul>
-          </div>
-        </div>
-        {/* <div class="card" id="card-1">
-          <div class="card-content">
-            <h2>Linkedin</h2>
-              <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" width="150" alt=""></img>
-              <p>text</p>
-            <ul>
-              <li>text</li>
-              <li>text</li>
-              <li>text</li>
-            </ul>
-          </div>
-        </div> */}
-      </div>
+      <h2 class="icon-header"><mark>Highlighting</mark> our values, goals, and <mark >our objectives</mark></h2>
+                <div class="icons">
+                    <div class="icon">
+                        <img src="https://img.freepik.com/free-vector/woman-men-teamwork-marketing-corporate_24877-54763.jpg?w=1380&t=st=1677256723~exp=1677257323~hmac=553105051525505ceb94c052691f0d2d445aeba154fe88a869cf6319f6ae870d" alt=""></img>
+                        <h1>Our Values</h1>
+                        <span>Our team values ongoing learning and development as a key driver of our success. This approach allows us to stay current and relevant in our field, and to tackle new challenges with confidence.</span>
+                    </div>
+                    <div class="icon">
+                        <img src="https://img.freepik.com/premium-vector/goal-success-arrow-sign-business-aim-symbol-target-goal-line-icon_183665-673.jpg?w=1380" alt=""></img>
+                        <h1>Setting Goals</h1> 
+                        <span>At Centra, we believe that setting ambitious goals is essential to driving progress and fostering a culture of creativity and excellence. By setting clear, challenging objectives and working together as a team to achieve them.</span>
+                    </div>
+                    <div class="icon">
+                        <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" alt=""></img>
+                        <h1>Grow Your Business</h1>
+                        <span>At Centra, our team employs a data-driven approach to help you understand your audience, and to identify the strategies that will be most effective in helping your business grow.</span>
+                    </div>
+                </div>
         <div class="faq">
           <h2>You Have <mark class="white">Questions?</mark> We Have <mark class="white">Answers</mark></h2>
           <button class="accordion" onClick={toggleAccordion}>Will you take a look at my account before I get started?</button>
@@ -150,10 +134,10 @@ You don’t have to be an ad expert or have a technical background when using In
           </div>
         </div>
         <div class="work-with-us">
-          <h1>Work With Us.</h1>
-          <btn class="contact-now-btn">
+          <h1>YOUR AUDIENCE IS LOOKING FOR YOU RIGHT NOW. DON’T WAIT.</h1>
+          <button class="contact-now-btn">
               Contact Us
-          </btn>
+          </button>
         </div>
     </div>
     

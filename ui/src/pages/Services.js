@@ -1,4 +1,7 @@
 import '../styles/Services.css';
+import googleads from '../images/google_ad_words.png'; 
+import handshake from '../images/handshake.png';
+import userFeedback  from '../images/user_feedback.png';
 
 export function Services(props) {
     return (
@@ -6,9 +9,9 @@ export function Services(props) {
             <div class="services-top-container">
                 <h1><mark>Ecommerce</mark> Marketing Services<br/> Centered for <mark>Profit Growth</mark></h1>
                 <caption>Centra Marketing is an ecommerce focused Marketing Agency that specializes in crafting effective campaigns for maximum impact, with a speacialty in driving business growth and increasing revenue. </caption>
-                <btn class="contact-now-btn">
-                    Get My Free Ecommerce Marketing Strategy
-                </btn>
+                <button class="contact-now-btn">
+                    Get My Free Marketing Strategy
+                </button>
             </div>
             <div class="services-middle-container">
                 <div class="all-unique-text-container">
@@ -26,53 +29,61 @@ export function Services(props) {
             <div class="bottom-container-header">
                 <h1> What We Can <mark>Provide</mark> To Your <mark>Business</mark></h1>
             </div>
-             <div id="services-cards">
-                
-                <div class="card" id="card-1">
-                    <div class="card-content">
-                        <h2>Ad Management and Optimization</h2>
-                        <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" width="150" alt=""></img>
-                        <p>Leave your social media advertising in the hands of our professional team, who will take care of posting giving you the freedom to focus on other areas of your business.</p>           
-                        <ul>
-                            <li>Content marketing strategy planning and execution</li>
-                            <li>Custom marketing plan for increased visibility, search rankings and real organic traffic</li>
-                            <li>Ongoing content marketing campaign tracking and monitoring</li>
-                            <li>marketing research and analysis of your competitors</li>
-                            <li>ROI measurements and constant optimization</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card" id="card-1">
-                    <div class="card-content">
-                        <h2>Google PPC</h2>
-                        <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" width="150" alt=""></img>
-                        <p>
-                            You can Entrust our Google Premier Partner marketing experts to construct a custom PPC campaign, such as a Google ads strategy, to accomplish your business objectives.
-                        </p>
-                        <ul>
-                            <li>Ensure modern advertising strategies and optimization patterns provided through Google</li>
-                            <li>Grow a long-term, loyal audience with a targeted marketing approach</li>
-                            <li>Providing metrics that will prove to be insigtful in helping build comprehensive reports</li>
-                            <li>We can help you avoid serious and costly mistakes with help from our team</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card" id="card-1">
-                    <div class="card-content">
-                        <h2>User Feedback</h2>                        
-                        <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" width="150" alt=""></img>
-                        <p>
-                        By outsourcing your advertising needs to our team of professionals, we can provide valuable feedback data that will enable your marketing department to create content that resonates with your target audience, ultimately saving you time and resources on research. 
-                        </p>
-                        <ul>
-                            <li>By working with us we will be able to assist you and your business in choosing the correct marketing direction to go in by analyzing data points</li>
-                            <li>User interaction data is crucial to all major companies, let us implement this service to yours as well</li>
-                            <li>Learn what your customers like to see so that you can produce more of it!</li>
-                            <li>Finally figure out why one campaign works and another does not.</li>
-                        </ul>
-                    </div>
-                </div>
-             </div>
+            <div class="bottom-container">
+        <div class="card" id="card-1">
+          <div class="card-content">
+            {/* <h2>Google</h2> */}
+            <img src="https://savvysearchmarketing.com/wp-content/uploads/Google-Ads.jpg" width="350" alt=""></img>
+            <p>Being the largest internet search provider in the world, Google is a platform that will ensure that anyone can have access to your business' online presence. Allow our team of experts to handle a custom PPC strategy that will help you reach your goals.</p>           
+            <ul>
+              <li>Using targeted marketing to grow you a loyal audience</li>
+              <li>Leave campaign management to the experts</li>
+              <li>Any budget can work to grow your business</li>
+              <li>See faster results with Google SEO</li>
+              <li>Use CPC, CPM, or CPA strategies to build a brand</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card" id="card-1">
+          <div class="card-content">
+            {/* <h2>Facebook</h2> */}
+            <img src="https://i1.wp.com/media272.com/wp-content/uploads/2018/08/facebook_advertising_media272.png?w=630&ssl=1" width="350" alt=""></img>
+            <p>Facebook has established itself as a leading marketing platform, with over 2.7 billion active users, making it a formidable advertising network suitable for various business types.</p>           
+            <ul>
+              <li>Maximize your content marketing strategy with Facebooks' amazing CPC</li>
+              <li>Facebook offers unmatched analytics allowing you to fine tune your content</li>
+              <li>With Facebooks' advanced tageting abilites we can go directly to your audience</li>
+              <li>Outcompete organic reach with our teams' Facebook optimized models</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card" id="card-1">
+          <div class="card-content">
+            {/* <h2>Instagram</h2> */}
+            <img src="https://sergiomagan.es/wp-content/uploads/2018/02/Instagram-Ads.jpg" width="350" alt=""></img>
+            <p>Instagram ads can be the first step for many businesses to get into the world of social media marketing. 
+You don’t have to be an ad expert or have a technical background when using Instagram advertising. Luckily our experts do and are here to assist you and your business in any way.</p>           
+            <ul>
+              <li>Gain access to another 2.5 billion users when beginning adversiting on instagram</li>
+              <li>A key advantage that instagram has over other platforms are shorts and </li>
+              <li>Lookalike and interest based prospecting to make data-driven decisions that goes after a strategic group of individuals that may be interested in your brand.</li>
+            </ul>
+          </div>
+        </div>
+        {/* <div class="card" id="card-1">
+          <div class="card-content">
+            <h2>Linkedin</h2>
+              <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" width="150" alt=""></img>
+              <p>text</p>
+            <ul>
+              <li>text</li>
+              <li>text</li>
+              <li>text</li>
+            </ul>
+          </div>
+        </div> */}
+      </div>
+             
         </div>
     );
 }

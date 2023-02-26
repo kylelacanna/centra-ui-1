@@ -16,6 +16,78 @@
     text-align: center;
 }
 
+.we-are-centra-container {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+
+}
+
+.header-container-we-are-centra {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-top: 3%;
+}
+
+.header-container-we-are-centra h2 {
+    font-size: 6ch;
+    margin: 0;
+}
+
+.header-container-we-are-centra h1 {
+    font-size: 10ch;
+    margin: 0;
+}
+
+.left-side-we-are-centra {
+    background-color: whitesmoke;
+    width: 50%;
+}
+
+.we-are-centra-text-container {
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 5vw;
+    width: 70%;
+}
+
+.we-are-centra-caption {
+    font-size: 3ch;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: rgb(117, 111, 111);
+}
+
+.we-are-centra-caption-2 {
+    font-size: 2.7ch;
+    color: rgb(144, 135, 135);
+}
+
+
+.right-side-we-are-centra {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    width: 60%;
+    padding-left: 10%
+}
+
+.right-side-we-are-centra img {
+    width: 55%;
+    filter: grayscale();
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.right-side-we-are-centra img:nth-child(1) {
+    margin-left: 20%;
+
+}
+
+
 mark {
     color: #3A5A40;
     background-color: transparent;
@@ -38,7 +110,7 @@ mark {
     margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 100px;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     text-transform: capitalize;
     transition: 0.5s;
@@ -63,8 +135,37 @@ mark {
     background-color: #588157;
     font-size: 3ch;
     font-family: inherit;
-    font-weight: 800;
+    font-weight: 700;
     color: rgb(255, 255, 255);
+}
+
+.we-are-centra-btn {
+    --b: 5px;
+    /* thickness of the border */
+    --c: #588157;
+    /* color of the border */
+    --w: 20px;
+    /* width of border */
+
+
+    border: var(--b) solid #0000;
+    /* space for the border */
+    --_g: #0000 90deg, var(--c) 0;
+    --_p: var(--w) var(--w) border-box no-repeat;
+    background:
+        conic-gradient(from 90deg at top var(--b) left var(--b), var(--_g)) 0 0 / var(--_p),
+        /* conic-gradient(from 180deg at top var(--b) right var(--b), var(--_g)) 100% 0 / var(--_p), */
+        /* conic-gradient(from 0deg at bottom var(--b) left var(--b), var(--_g)) 0 100% / var(--_p), */
+        conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--_g)) 100% 100% / var(--_p);
+
+    margin-left: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 2.8ch;
 }
 
 .who-we-help-h1 {
@@ -102,7 +203,7 @@ p {
 
 .middle-text span {
     font-size: 3.8ch;
-    width: 140%;
+    width: 130%;
 }
 
 .middle-text ul {
@@ -130,33 +231,48 @@ p {
     height: inherit;
 }
 
-.bottom-header {
-    text-align: center;
-    text-transform: capitalize;
-}
-
-.bottom-header h2 {
+.icon-header {
     font-size: 6ch;
+    align-self: center;
 }
 
-.bottom-container {
+.icons {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    background-color: white;
     align-items: center;
+    text-align: center;
 }
 
-.bottom-container .card {
-    width: 25%;
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
     height: 80vh;
+    margin-bottom: 15vh;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 30px;
+    border: solid;
+    border-color: lightgray;
 }
 
-.bottom-container .card-content p {
-    font-size: 3ch;
+
+.icons div img {
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 10%;
 }
 
-.bottom-container .card-content li {
-    font-size: 2.5ch;
+.icons div h1 {
+    font-size: 5ch;
+}
+
+.icons div span {
+    margin-bottom: 5vh;
+    font-size: 3.2ch;
 }
 
 .faq {
@@ -231,4 +347,5 @@ p {
     font-family: inherit;
     font-weight: 800;
     color: rgb(255, 255, 255);
+    border: none;
 }
