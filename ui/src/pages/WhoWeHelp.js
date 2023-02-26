@@ -6,62 +6,61 @@ import userFeedback  from '../images/user_feedback.png';
 
 export function WhoWeHelp(props){
     return (
-        <div>
-            <div class="ecommerce-shout-out">
-                <h1 class="who-we-help-h1">dedicated to <mark>helping businesses</mark> with <br/>an online presence <mark>expand</mark> their reach</h1>
-            </div>
+            <div>
+                <div class="ecommerce-shout-out">
+                    <h1 class="who-we-help-h1">dedicated to <mark>helping businesses</mark> with <br/>an online presence <mark>expand</mark> their reach</h1>
+                </div>
             <div class="container-who-we-help">
                
-                <div class="bottom-header">
-          <h2>We are pleased to offer services on <mark>major platforms</mark></h2>
-      </div>
-      <div id="services-cards">
-                
-                <div class="card" id="card-1">
-                    <div class="card-content">
-                        <h2>Management and Optimization</h2>
-                        <img src={handshake } width="250" alt=""></img>
-                        <p>Leave your social media advertising in the hands of our professional team, who will take care of posting giving you the freedom to focus on other areas of your business.</p>           
-                        <ul>
-                            <li>Content marketing strategy planning and execution</li>
-                            <li>Custom marketing plan for increased visibility, search rankings and real organic traffic</li>
-                            <li>Ongoing content marketing campaign tracking and monitoring</li>
-                            <li>marketing research and analysis of your competitors</li>
-                            <li>ROI measurements and constant optimization</li>
-                        </ul>
+            <div class="bottom-header">
+                <h2>We are pleased to offer services on <mark>major platforms</mark></h2>
+            </div>
+                <div id="wwh-cards">
+                    <div class="wwh-card" id="card-1">
+                        <div class="card-content">
+                            <h2>Management and Optimization</h2>
+                            <img src={handshake } width="250" alt=""></img>
+                            <p>Leave your social media advertising in the hands of our professional team, who will take care of posting giving you the freedom to focus on other areas of your business.</p>           
+                            <ul>
+                                <li>Content marketing strategy planning and execution</li>
+                                <li>Custom marketing plan for increased visibility, search rankings and real organic traffic</li>
+                                <li>Ongoing content marketing campaign tracking and monitoring</li>
+                                <li>marketing research and analysis of your competitors</li>
+                                <li>ROI measurements and constant optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="wwh-card" id="card-1">
+                        <div class="card-content">
+                            <h2>Google PPC</h2>
+                            <img src={googleads} width="150" alt=""></img>
+                            <p>
+                                You can Entrust our Google Premier Partner marketing experts to construct a custom PPC campaign, such as a Google ads strategy, to accomplish your business objectives.
+                            </p>
+                            <ul>
+                                <li>Ensure modern advertising strategies and optimization patterns provided through Google</li>
+                                <li>Grow a long-term, loyal audience with a targeted marketing approach</li>
+                                <li>Providing metrics that will prove to be insigtful in helping build comprehensive reports</li>
+                                <li>We can help you avoid serious and costly mistakes with help from our team</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="wwh-card" id="card-1">
+                        <div class="card-content">
+                            <h2>User Feedback</h2>                        
+                            <img src={userFeedback} width="150" alt=""></img>
+                            <p>
+                            By outsourcing your advertising needs to our team of professionals, we can provide valuable feedback data that will enable your marketing department to create content that resonates with your target audience, ultimately saving you time and resources on research. 
+                            </p>
+                            <ul>
+                                <li>By working with us we will be able to assist you and your business in choosing the correct marketing direction to go in by analyzing data points</li>
+                                <li>User interaction data is crucial to all major companies, let us implement this service to yours as well</li>
+                                <li>Learn what your customers like to see so that you can produce more of it!</li>
+                                <li>Finally figure out why one campaign works and another does not.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="card" id="card-1">
-                    <div class="card-content">
-                        <h2>Google PPC</h2>
-                        <img src={googleads} width="150" alt=""></img>
-                        <p>
-                            You can Entrust our Google Premier Partner marketing experts to construct a custom PPC campaign, such as a Google ads strategy, to accomplish your business objectives.
-                        </p>
-                        <ul>
-                            <li>Ensure modern advertising strategies and optimization patterns provided through Google</li>
-                            <li>Grow a long-term, loyal audience with a targeted marketing approach</li>
-                            <li>Providing metrics that will prove to be insigtful in helping build comprehensive reports</li>
-                            <li>We can help you avoid serious and costly mistakes with help from our team</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card" id="card-1">
-                    <div class="card-content">
-                        <h2>User Feedback</h2>                        
-                        <img src={userFeedback} width="250" alt=""></img>
-                        <p>
-                        By outsourcing your advertising needs to our team of professionals, we can provide valuable feedback data that will enable your marketing department to create content that resonates with your target audience, ultimately saving you time and resources on research. 
-                        </p>
-                        <ul>
-                            <li>By working with us we will be able to assist you and your business in choosing the correct marketing direction to go in by analyzing data points</li>
-                            <li>User interaction data is crucial to all major companies, let us implement this service to yours as well</li>
-                            <li>Learn what your customers like to see so that you can produce more of it!</li>
-                            <li>Finally figure out why one campaign works and another does not.</li>
-                        </ul>
-                    </div>
-                </div>
-             </div>
                 <div class="steps-backdrop">
                     <h1>Our Recipe For <mark>Growth</mark></h1>
                     <div class="steps">
@@ -136,6 +135,6 @@ export function WhoWeHelp(props){
                     </button>
                 </div>
             </div>
-        </div>
+        </div> 
     );
 }

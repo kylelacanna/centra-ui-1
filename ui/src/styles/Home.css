@@ -120,6 +120,7 @@ mark {
     font-family: inherit;
     font-weight: 800;
     color: rgb(255, 255, 255);
+    border: none;
 }
 
 .free-strat-btn {
@@ -137,6 +138,7 @@ mark {
     font-family: inherit;
     font-weight: 700;
     color: rgb(255, 255, 255);
+    border: none;
 }
 
 .we-are-centra-btn {
@@ -231,9 +233,17 @@ p {
     height: inherit;
 }
 
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .icon-header {
     font-size: 6ch;
     align-self: center;
+    text-align: center;
+    font-weight: 500;
 }
 
 .icons {
@@ -268,6 +278,7 @@ p {
 
 .icons div h1 {
     font-size: 5ch;
+    font-weight: 500;
 }
 
 .icons div span {

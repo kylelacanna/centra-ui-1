@@ -8,8 +8,7 @@
   .about-page-btn {
       flex: 1 1 auto;
       margin-right: 20px;
-      margin-top: 20px;
-      margin-bottom: 100px;
+      margin-top: 8%;
       padding: 10px;
       text-align: center;
       text-transform: capitalize;
@@ -18,8 +17,9 @@
       background-color: #588157;
       font-size: 4.3ch;
       font-family: inherit;
-      font-weight: 800;
+      font-weight: 600;
       color: rgb(255, 255, 255);
+      border: none;
   }
 
   .about-container h3 {
@@ -30,10 +30,13 @@
       display: flex;
       flex-direction: row;
       margin-bottom: 5vh;
+      align-items: center;
   }
 
   .about-image-container {
       padding-left: 4vw;
+      display: flex;
+      flex-direction: column;
   }
 
   .about-us-text {
@@ -44,22 +47,31 @@
   }
 
   .more-details h2 {
-      font-size: 5vh;
+      font-size: 7vh;
       padding-left: 3vw;
       background-color: white;
       color: #3A5A40;
       margin-bottom: none;
-      padding-bottom: 1vh;
+      font-weight: 400;
   }
 
   .more-details h4 {
-      font-size: 3vh;
+      font-size: 5vh;
       padding-left: 5vw;
+      font-weight: 300;
   }
 
   .more-details p {
-      font-size: 2vh;
-      padding-left: 7vw;
+      font-size: 2.8vh;
+      font-weight: 300;
+  }
+
+  .more-details img {
+      width: 35%;
+      margin-bottom: 2%;
+      margin-left: 5%;
+      margin-right: 5%;
+      filter: grayscale();
   }
 
   .section1,
@@ -67,4 +79,10 @@
       background-color: #eeee;
       padding-top: 1vh;
       padding-bottom: 1vh;
+  }
+
+  .section-content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
   }
