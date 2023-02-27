@@ -1,5 +1,7 @@
 import '../styles/Home.css';
 import React, { useState, useRef, useEffect } from "react";
+import centra from "../images/centra-C-no-background.png";
+
 
 
 <link rel="stylesheet"
@@ -22,6 +24,7 @@ export function Home(props) {
     
     <div class="container">
       <div class="top-container">
+        <img src={centra}/>
         <div class="home-page-big-text">
          <h1 class="home-page-header">Expand Your <mark>Advertising</mark> <span><mark>Reach</mark> With Our Optimized</span> Solutions</h1>
         </div>
@@ -89,7 +92,7 @@ export function Home(props) {
                         <span>At Centra, we believe that setting ambitious goals is essential to driving progress and fostering a culture of creativity and excellence. By setting clear, challenging objectives and working together as a team to achieve them.</span>
                     </div>
                     <div class="icon">
-                        <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" alt=""></img>
+                        <img src="https://img.freepik.com/free-vector/business-leader-standing-arrow-holding-flag-flat-vector-illustration-cartoon-people-training-doing-business-plan-leadership-victory-challenge-concept_74855-9812.jpg?w=826&t=st=1677455184~exp=1677455784~hmac=cc0d63c0af1f5be476f710cb60b5bba39cc252f2791b13e62a95e8e775569b89" alt=""></img>
                         <h1>Grow Your Business</h1>
                         <span>At Centra, our team employs a data-driven approach to help you understand your audience, and to identify the strategies that will be most effective in helping your business grow.</span>
                     </div>

@@ -5,6 +5,13 @@
     align-items: center;
     font-family: 'Lora', sans-serif;
     font-size: 250%;
+    z-index: 1;
+}
+
+.top-container img {
+    filter: grayscale();
+    opacity: 7%;
+    position: absolute;
 }
 
 .home-page-big-text {
@@ -271,7 +278,8 @@ p {
 
 
 .icons div img {
-    width: 200px;
+    min-width: 200px;
+    max-width: 350px;
     margin-top: 20px;
     border-radius: 10%;
 }
@@ -282,7 +290,7 @@ p {
 }
 
 .icons div span {
-    margin-bottom: 5vh;
+    margin-bottom: 5%;
     font-size: 3.2ch;
 }
 
@@ -340,7 +348,9 @@ p {
 }
 
 .work-with-us h1 {
+    margin-top: 3%;
     font-size: 5ch;
+    font-weight: 400;
 }
 
 .contact-now-btn {

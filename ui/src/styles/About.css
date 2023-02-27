@@ -24,6 +24,7 @@
 
   .about-container h3 {
       font-size: 8ch;
+      font-weight: 600;
   }
 
   .about-top-container {
@@ -39,11 +40,16 @@
       flex-direction: column;
   }
 
+  .about-image-container img {
+      max-width: 1000px;
+  }
+
   .about-us-text {
       margin-left: 3vw;
       text-align: left;
       width: 50%;
-      font-size: 4ch;
+      font-size: 3ch;
+      line-height: 1.7;
   }
 
   .more-details h2 {
@@ -68,9 +74,6 @@
 
   .more-details img {
       width: 35%;
-      margin-bottom: 2%;
-      margin-left: 5%;
-      margin-right: 5%;
       filter: grayscale();
   }
 
@@ -79,10 +82,20 @@
       background-color: #eeee;
       padding-top: 1vh;
       padding-bottom: 1vh;
+      font-weight: 600;
+  }
+
+  .section2,
+  .section5 {
+      font-weight: 600;
   }
 
   .section-content {
       display: flex;
       flex-direction: row;
       align-items: center;
+      line-height: 6.5ch;
+      margin-bottom: 2%;
+      margin-left: 3%;
+      margin-right: 5%;
   }

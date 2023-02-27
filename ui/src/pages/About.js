@@ -12,7 +12,7 @@ export function About(props) {
             <h3>How <mark>Centra</mark> Came To Be</h3>
             <div class="about-top-container">
                 <div class="about-image-container">
-                    <img src={wash} width="1000" height="500" alt=""></img>
+                    <img src={wash} alt=""></img>
                     <button class="about-page-btn">
                         Together We Will succeed
                     </button>
@@ -54,7 +54,7 @@ export function About(props) {
                     <h4>Passion to help Business</h4> 
                     <div class="section-content">
                         <p>Centra was founded with the idea that our team could assist business in a digital space in which they are not savvy. Our joy and passion from providing this service comes from watching our clients reach thier goals and achieve what they truly want in life. If we can help our clients do that, Centra has fufilled its purpose. </p>
-                        <img class="hexagon" src={stock4}/>
+                        <img class="hexagon" src={stock4}/> 
                     </div>
                 </div>
                 <div class="work-with-us">

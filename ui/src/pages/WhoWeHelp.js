@@ -3,23 +3,25 @@ import "../styles/WhoWeHelp.css";
 import googleads from '../images/google_ad_words.png'; 
 import handshake from '../images/handshake.png';
 import userFeedback  from '../images/user_feedback.png';
+import centra from "../images/centra-C-no-background.png";
+
 
 export function WhoWeHelp(props){
     return (
-            <div>
-                <div class="ecommerce-shout-out">
-                    <h1 class="who-we-help-h1">dedicated to <mark>helping businesses</mark> with <br/>an online presence <mark>expand</mark> their reach</h1>
-                </div>
-            <div class="container-who-we-help">
+    <div>
+            <div class="ecommerce-shout-out">
+                <img src={centra}/>
+                <h1 class="who-we-help-h1">dedicated to <mark>helping businesses</mark> with <br/>an online presence <mark>expand</mark> their reach</h1>
+            </div>
                
             <div class="bottom-header">
                 <h2>We are pleased to offer services on <mark>major platforms</mark></h2>
             </div>
-                <div id="wwh-cards">
+                <div class="wwh-cards">
                     <div class="wwh-card" id="card-1">
                         <div class="card-content">
                             <h2>Management and Optimization</h2>
-                            <img src={handshake } width="250" alt=""></img>
+                            <img src={handshake } alt=""></img>
                             <p>Leave your social media advertising in the hands of our professional team, who will take care of posting giving you the freedom to focus on other areas of your business.</p>           
                             <ul>
                                 <li>Content marketing strategy planning and execution</li>
@@ -33,7 +35,7 @@ export function WhoWeHelp(props){
                     <div class="wwh-card" id="card-1">
                         <div class="card-content">
                             <h2>Google PPC</h2>
-                            <img src={googleads} width="150" alt=""></img>
+                            <img src={googleads} alt=""></img>
                             <p>
                                 You can Entrust our Google Premier Partner marketing experts to construct a custom PPC campaign, such as a Google ads strategy, to accomplish your business objectives.
                             </p>
@@ -48,7 +50,7 @@ export function WhoWeHelp(props){
                     <div class="wwh-card" id="card-1">
                         <div class="card-content">
                             <h2>User Feedback</h2>                        
-                            <img src={userFeedback} width="150" alt=""></img>
+                            <img src={userFeedback} alt=""></img>
                             <p>
                             By outsourcing your advertising needs to our team of professionals, we can provide valuable feedback data that will enable your marketing department to create content that resonates with your target audience, ultimately saving you time and resources on research. 
                             </p>
@@ -134,7 +136,6 @@ export function WhoWeHelp(props){
                         Contact Us
                     </button>
                 </div>
-            </div>
-        </div> 
+            </div> 
     );
 }

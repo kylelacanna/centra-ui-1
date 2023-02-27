@@ -1,11 +1,14 @@
 import '../styles/Services.css';
 import globe from '../images/connect-the-world.png';
 import standout from '../images/standout.png';
+import centra from "../images/centra-C-no-background.png";
+
 
 export function Services(props) {
     return (
         <div class="parent-container">
             <div class="services-top-container">
+                <img src={centra}/>
                 <h1><mark>Ecommerce</mark> Marketing Services<br/> Centered for <mark>Profit Growth</mark></h1>
                 <caption>Centra Marketing is an ecommerce focused Marketing Agency that specializes in crafting effective campaigns for maximum impact, with a speacialty in driving business growth and increasing revenue. </caption>
                 <button class="contact-now-btn">
@@ -14,7 +17,7 @@ export function Services(props) {
             </div>
             <div class="services-middle-container">
                 <div class="header-container">
-                <h2>No Two Brands are Indentical</h2>
+                {/* <h2>No Two Brands are Indentical</h2> */}
                 </div>
             
                     <div class="all-unique-text">                  
@@ -22,7 +25,7 @@ export function Services(props) {
                         <img src={standout}/>
                     </div>
                         <br/> 
-                    <h2>Discover How Big Your Audience Can Be</h2>
+                    {/* <h2>Discover How Big Your Audience Can Be</h2> */}
                     <div class="discover-text">
                         <img src={globe}/>
                         <span>Unlock the full potential of your online advertising efforts with our digital ad optimization models. After meeting with us, we will develop strategies that will help you reach your target audience with precision, resulting in increased engagement and business growth. Partner with us to drive measurable results and achieve your marketing objectives.</span>
