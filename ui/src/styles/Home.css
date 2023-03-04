@@ -45,6 +45,8 @@
 .header-container-we-are-centra h1 {
     font-size: 10ch;
     margin: 0;
+    border-bottom: solid 5px #3A5A40;
+    width: fit-content;
 }
 
 .left-side-we-are-centra {

@@ -8,6 +8,7 @@
     background-color: #ffff;
     color: black;
     justify-content: space-between;
+    font-weight: 300;
 }
 
 #right-bar {
@@ -21,7 +22,6 @@
     text-decoration: none;
     color: black;
     padding: 9px 20px;
-
 }
 
 .left-bar-link:hover {
