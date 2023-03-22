@@ -39,41 +39,40 @@ export function Home(props) {
       </div>
       <div class="we-are-centra-container">
         <div class="left-side-we-are-centra">
-        <div class="we-are-centra-text-container">
-          <div class="header-container-we-are-centra">
-            <h2>WE ARE</h2>
-            <h1><mark>CENTRA</mark></h1>
+          <div class="we-are-centra-text-container">
+            <div class="header-container-we-are-centra">
+              <h2>WE ARE</h2>
+              <h1><mark>CENTRA</mark></h1>
+            </div>
+            <h3 class="we-are-centra-caption">
+            We assist business owners scale their already successful endevors by maximixing their marketing dollars and getting thier campaigns in front of the new loyal cusotmers we will find for you.
+            </h3>
+            <p class="we-are-centra-caption-2">
+                We work with brands to help expand their online presence and imporve their overall revanue throught optimized management of Meta and Google ads. If you are looking to offload your marketing efforts to exprienced experts to create an all-inclusive marketing enviorment built for scale? We are here to help.
+            </p>
+            <button class="we-are-centra-btn">Learn More</button>
           </div>
-          <h3 class="we-are-centra-caption">
-           We assist business owners scale their already successful endevors by maximixing their marketing dollars and getting thier campaigns in front of the new loyal cusotmers we will find for you.
-          </h3>
-          <p class="we-are-centra-caption-2">
-              We work with brands to help expand their online presence and imporve their overall revanue throught optimized management of Meta and Google ads. If you are looking to offload your marketing efforts to exprienced experts to create an all-inclusive marketing enviorment built for scale? We are here to help.
-          </p>
-          <button class="we-are-centra-btn">Learn More</button>
-        </div>
         </div>
         <div class="right-side-we-are-centra">
           <img src="https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_960_720.jpg"></img>
 
           <img src="https://cdn.pixabay.com/photo/2017/08/01/00/38/man-2562325_960_720.jpg" alt=""></img>
         </div>
-
       </div>
       <div class="middle-container">
         <div class="middle-text">
-         <h2><mark>services</mark> that will prove to be <mark>essential</mark> to your business</h2>
-         <span>Centra uses a comprehensive approach to marketing. presenting solutions that can easily be integrated to your business with the expertise of our team we can help achieve sustained success for you.</span>
-         <ul>
-          <li><strong>Digital Advertisement Management</strong>: Spend less time managing your digital marketing content and efficiency increase your reach by outsourcing to our team of professionals. </li>
-          <br/>
-          <li><strong>Performance Data For Making Informed decisions</strong>: Entrusting us with the management of your media campaigns will yield valuable user insights for future marketing strategies.</li>
-          <br/>
-          <li><strong>Comprehensive Assessment For Successful Campaigns</strong>: After working with us we will be able to provide our clients with use ful user feedback as to which campaigns we most effective in producing the desired result. </li> 
-         </ul>
-         <button class="free-strat-btn">
+          <h2><mark>services</mark> that will prove to be <mark>essential</mark> to your business</h2>
+          <span>Centra uses a comprehensive approach to marketing. presenting solutions that can easily be integrated to your business with the expertise of our team we can help achieve sustained success for you.</span>
+          <ul>
+            <li><strong>Digital Advertisement Management</strong>: Spend less time managing your digital marketing content and efficiency increase your reach by outsourcing to our team of professionals. </li>
+            <br/>
+            <li><strong>Performance Data For Making Informed decisions</strong>: Entrusting us with the management of your media campaigns will yield valuable user insights for future marketing strategies.</li>
+            <br/>
+            <li><strong>Comprehensive Assessment For Successful Campaigns</strong>: After working with us we will be able to provide our clients with use ful user feedback as to which campaigns we most effective in producing the desired result. </li> 
+          </ul>
+          <button class="free-strat-btn">
             get my free marketing strategy
-        </button>
+          </button>
         </div>
         <div class="picture-middle">
             <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" alt=""></img>
@@ -82,19 +81,19 @@ export function Home(props) {
       <h2 class="icon-header"><mark>Highlighting</mark> our values, goals, and <mark >our objectives</mark></h2>
                 <div class="icons">
                     <div class="icon">
-                        <img src="https://img.freepik.com/free-vector/woman-men-teamwork-marketing-corporate_24877-54763.jpg?w=1380&t=st=1677256723~exp=1677257323~hmac=553105051525505ceb94c052691f0d2d445aeba154fe88a869cf6319f6ae870d" alt=""></img>
-                        <h1>Our Values</h1>
-                        <span>Our team values ongoing learning and development as a key driver of our success. This approach allows us to stay current and relevant in our field, and to tackle new challenges with confidence.</span>
+                        <img class="icon-images" src="https://img.freepik.com/free-vector/woman-men-teamwork-marketing-corporate_24877-54763.jpg?w=1380&t=st=1677256723~exp=1677257323~hmac=553105051525505ceb94c052691f0d2d445aeba154fe88a869cf6319f6ae870d" alt=""></img>
+                        <h1 class="icon-titles">Our Values</h1>
+                        <p class="icon-description">Our team values ongoing learning and development as a key driver of our success. This approach allows us to stay current and relevant in our field, and to tackle new challenges with confidence.</p>
                     </div>
                     <div class="icon">
-                        <img src="https://img.freepik.com/premium-vector/goal-success-arrow-sign-business-aim-symbol-target-goal-line-icon_183665-673.jpg?w=1380" alt=""></img>
-                        <h1>Setting Goals</h1> 
-                        <span>At Centra, we believe that setting ambitious goals is essential to driving progress and fostering a culture of creativity and excellence. By setting clear, challenging objectives and working together as a team to achieve them.</span>
+                        <img class="icon-images" src="https://img.freepik.com/premium-vector/goal-success-arrow-sign-business-aim-symbol-target-goal-line-icon_183665-673.jpg?w=1380" alt=""></img>
+                        <h1 class="icon-titles">Setting Goals</h1> 
+                        <p class="icon-description">At Centra, we believe that setting ambitious goals is essential to driving progress and fostering a culture of creativity and excellence. By setting clear, challenging objectives and working together as a team to achieve them.</p>
                     </div>
                     <div class="icon">
-                        <img src="https://img.freepik.com/free-vector/business-leader-standing-arrow-holding-flag-flat-vector-illustration-cartoon-people-training-doing-business-plan-leadership-victory-challenge-concept_74855-9812.jpg?w=826&t=st=1677455184~exp=1677455784~hmac=cc0d63c0af1f5be476f710cb60b5bba39cc252f2791b13e62a95e8e775569b89" alt=""></img>
-                        <h1>Grow Your Business</h1>
-                        <span>At Centra, our team employs a data-driven approach to help you understand your audience, and to identify the strategies that will be most effective in helping your business grow.</span>
+                        <img class="icon-images" src="https://img.freepik.com/free-vector/business-leader-standing-arrow-holding-flag-flat-vector-illustration-cartoon-people-training-doing-business-plan-leadership-victory-challenge-concept_74855-9812.jpg?w=826&t=st=1677455184~exp=1677455784~hmac=cc0d63c0af1f5be476f710cb60b5bba39cc252f2791b13e62a95e8e775569b89" alt=""></img>
+                        <h1 class="icon-titles">Grow Your Business</h1>
+                        <p class="icon-description">At Centra, our team employs a data-driven approach to help you understand your audience, and to identify the strategies that will be most effective in helping your business grow.</p>
                     </div>
                 </div>
         <div class="faq">

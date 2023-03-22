@@ -14,21 +14,37 @@
 #right-bar {
     display: flex;
     justify-content: space-evenly;
+    height: 4vw;
 }
 
 .left-bar-link {
     display: flex;
+    flex-direction: vertical;
+    justify-content: center;
     text-transform: none;
     text-decoration: none;
     color: black;
-    padding: 9px 20px;
+    padding: 0px 20px;
 }
 
 .left-bar-link:hover {
     color: #588157;
 }
 
+#left-bar-logo-name {
+    font-size: 1.4vw;
+    margin-left: 10px;
+}
+
+.right-bar-name {
+    font-size: 0.9vw;
+
+}
+
 .right-bar-link {
+    display: flex;
+    flex-direction: vertical;
+    justify-content: center;
     color: #588157;
     padding: 9px 20px;
     text-decoration: none;
@@ -72,6 +88,13 @@
     font-family: inherit;
 }
 
+.right-bar-div {
+    display: flex;
+    flex-direction: vertical;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
 .free-consultation {
     flex: 1 1 auto;
     margin-right: 20px;
@@ -81,7 +104,6 @@
     transition: 0.5s;
     border-radius: 10px;
     background-color: #588157;
-    font-size: 17px;
     font-family: inherit;
     font-weight: 800;
     color: rgb(255, 255, 255);
@@ -94,6 +116,10 @@
     box-shadow: 0px 0px 0px 3px #588157 inset;
 }
 
-.logo {
-    height: 1vh;
+#right-bar-free-button-text {
+    padding-top: 0vw;
+}
+
+#logo {
+    height: 4vw;
 }

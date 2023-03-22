@@ -4,11 +4,8 @@ import logo from "../images/logo_c.png";
 export function LeftNav(props) {
   return (
     <Link class="left-bar-link" to={`/`}>
-        <div class="logo">
-          <img src={logo} alt="logo" style={{ width: 80, height: 80, paddingRight:10}}/>
-        </div>
-        <h1>Centra Marketing</h1>
+        <img id="logo" src={logo} alt="logo" />
+        <h1 id="left-bar-logo-name">Centra Marketing</h1>
     </Link>
-    
   );
 }

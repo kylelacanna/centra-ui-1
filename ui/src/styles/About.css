@@ -23,14 +23,14 @@
   }
 
   .about-container h3 {
-      font-size: 8ch;
+      font-size: 5.5vw;
       font-weight: 600;
   }
 
   .about-top-container {
       display: flex;
       flex-direction: row;
-      margin-bottom: 5vh;
+      margin-bottom: 5vw;
       align-items: center;
   }
 
@@ -38,22 +38,23 @@
       padding-left: 4vw;
       display: flex;
       flex-direction: column;
+      width: 40%;
   }
 
   .about-image-container img {
-      max-width: 1000px;
+      max-width: 800px;
   }
 
   .about-us-text {
       margin-left: 3vw;
       text-align: left;
       width: 50%;
-      font-size: 3ch;
-      line-height: 1.7;
+      font-size: 1.8vw;
+      line-height: 2vw;
   }
 
   .more-details h2 {
-      font-size: 7vh;
+      font-size: 4vw;
       padding-left: 3vw;
       background-color: white;
       color: #3A5A40;
@@ -62,14 +63,15 @@
   }
 
   .more-details h4 {
-      font-size: 5vh;
+      font-size: 3vw;
       padding-left: 5vw;
       font-weight: 300;
   }
 
   .more-details p {
-      font-size: 2.8vh;
+      font-size: 1.8vw;
       font-weight: 300;
+      line-height: 2.2vw;
   }
 
   .more-details img {
@@ -80,8 +82,8 @@
   .section1,
   .section3 {
       background-color: #eeee;
-      padding-top: 1vh;
-      padding-bottom: 1vh;
+      padding-top: 1vw;
+      padding-bottom: 1vw;
       font-weight: 600;
   }
 
@@ -94,7 +96,6 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      line-height: 6.5ch;
       margin-bottom: 2%;
       margin-left: 3%;
       margin-right: 5%;
