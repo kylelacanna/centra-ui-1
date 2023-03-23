@@ -2,8 +2,8 @@ import "../styles/ContactForm.css";
 export function ContactForm(props) {
   return (
     <div className="container-parent">
-      <h2 id="contact-page-title">Contact Us</h2>
-      <form>
+      <h2 class="contact-page-title">Contact Us</h2>
+      <form class="contact-form">
         <div>
           <h3>Name</h3>
           <div id="name-input-div">
@@ -26,7 +26,7 @@ export function ContactForm(props) {
         <h3>Message</h3>
         <textarea placeholder="Optional Message" />
         <div id="submit-button-div">
-          <button id="submit-button" type="submit">
+          <button class="submit-button" id="submit-button" type="submit">
             Submit
           </button>
         </div>
