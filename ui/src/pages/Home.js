@@ -1,12 +1,21 @@
 import '../styles/Home.css';
 import React, { useState, useRef, useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { ShowModal, HideModal } from '../actions.js';
 import centra from "../images/centra-C-no-background.png";
-
+import {Modal} from "../components/Modal.js";
 
 
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css?family=Lora"></link>
+
 export function Home(props) {
+
+  const showModal = useSelector((state) => state.showModal);
+  const dispatch = useDispatch();
+
+//onClick={() => dispatch(ShowModal())}
+
       const [active, setActive] = useState(false);
 
       const contentRef = useRef(null);
@@ -24,7 +33,7 @@ export function Home(props) {
     
     <div class="container">
       <div class="top-container">
-        <img src={centra}/>
+        <img src={centra} alt="Background logo"/>
         <div class="home-page-big-text">
          <h1 class="home-page-header">Expand Your <mark>Advertising</mark> <span><mark>Reach</mark> With Our Optimized</span> Solutions</h1>
         </div>
@@ -32,9 +41,13 @@ export function Home(props) {
           <span>We are not your usual digital marketing agency.</span>
           <span>We refuse to settle for the bare minmum.</span>
           <span>We will customize an optimization  marketing plan specifically for your thriving business.</span>
-          <button class="home-page-btn">
+          <button class="home-page-btn" onClick={() => dispatch(ShowModal())}>
             lets talk teamwork
           </button>
+          {showModal && (document.body.style.overflow = "hidden") &&
+           <Modal/>
+          }
+          
         </div>
       </div>
       <div class="we-are-centra-container">

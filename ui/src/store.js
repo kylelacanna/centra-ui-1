@@ -1,5 +1,6 @@
 import { applyMiddleware, createStore } from "redux";
 import thunk from "redux-thunk";
+import { Action } from "./actions";
 
 const initialState = {
     showModal: false,

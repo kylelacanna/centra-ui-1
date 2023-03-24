@@ -140,6 +140,11 @@ mark {
     font-weight: 800;
     color: rgb(255, 255, 255);
     border: none;
+    z-index: 3;
+}
+
+.home-page-btn:hover {
+    transform: scale(1.1);
 }
 
 .free-strat-btn {
@@ -390,4 +395,8 @@ p {
     font-weight: 600;
     color: rgb(255, 255, 255);
     border: none;
+}
+
+button {
+    cursor: pointer;
 }

@@ -4,6 +4,7 @@ export const Action = Object.freeze({
 });
 
 export function ShowModal(cars) {
+    console.log("CLICK WORKED");
 return {type: Action.ShowModal};
 }
 

@@ -1,4 +1,5 @@
 import "./App.css";
+import { useDispatch, useSelector } from "react-redux";
 import { Route, Routes } from "react-router";
 import { Home } from "./pages/Home.js";
 import { About } from "./pages/About.js";
