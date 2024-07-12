@@ -1,5 +1,4 @@
 import '../styles/Mobile.css';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import centra from "../images/centra-C-no-background.png";
 import React, { useState, useRef, useEffect } from "react";
 import { ContactForm } from "../components/ContactForm.js";
@@ -32,7 +31,6 @@ export function Mobile (props){
                     <div class="mobile-big-text-caption">
                         <span>We are not your usual digital marketing agency. And We refuse to settle for the bare minmum.</span>
                     </div>
-                    <FontAwesomeIcon icon="fa-thin fa-arrow-down" />
                 </div>
                 <div class="mobile-see-more">
                     <h2>Here are just a few of the ways we can help</h2>
