@@ -1,11 +1,5 @@
 import '../styles/Mobile.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faFacebookF,
-    faTwitter,
-    faInstagram,
-    faLinkedinIn
-  } from "@fortawesome/free-brands-svg-icons";
 import centra from "../images/centra-C-no-background.png";
 import React, { useState, useRef, useEffect } from "react";
 import { ContactForm } from "../components/ContactForm.js";
@@ -95,20 +89,6 @@ export function Mobile (props){
                     </div>
                 </div>
                 <ContactForm/>            
-            </div>
-            <div class="mobile-footer">
-                <a href="https://www.facebook.com//profile.php?id=100089627808137" class="social" id="facebook">
-                    <FontAwesomeIcon icon={faFacebookF} />
-                </a>
-                <a href="https://www.instagram.com/centramarketing" class="social" id="instagram">
-                    <FontAwesomeIcon icon={faInstagram} />
-                </a>
-                <a href="https://www.linkedin.com" class="social" id="linkdin">
-                    <FontAwesomeIcon icon={faLinkedinIn} />
-                </a>
-                <a href="https://www.twitter.com/centramrktingco" class="social" id="twitter">
-                    <FontAwesomeIcon icon={faTwitter} />
-                </a>
             </div>
         </div>
     );
