@@ -26,21 +26,7 @@ export function Footer(props) {
                         <h4>Contact Us</h4>
                     </div>
                 </Link>
-            </div>
-            <div class="social-container">
-                <a href="https://www.facebook.com//profile.php?id=100089627808137" class="social" id="facebook">
-                    <FontAwesomeIcon icon={faFacebookF} />
-                </a>
-                <a href="https://www.instagram.com/centramarketing" class="social" id="instagram">
-                    <FontAwesomeIcon icon={faInstagram} />
-                </a>
-                 <a href="https://www.linkedin.com" class="social" id="linkdin">
-                    <FontAwesomeIcon icon={faLinkedinIn} />
-                </a>
-                <a href="https://www.twitter.com/centramrktingco" class="social" id="twitter">
-                    <FontAwesomeIcon icon={faTwitter} />
-                </a>
-            </div>            
+            </div>           
         </div>
     );
 }
