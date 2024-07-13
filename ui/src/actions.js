@@ -97,7 +97,7 @@ export function sendEmail(fName, lName, budget, message, email, service) {
     //   dispatch(showProgress());
       // fetch(`https://project2.kylelacanna.me:8443/sendEmail`, body) 
       // fetch(`http://localhost:5001/sendEmail`, body)
-      fetch(`http://centra-web-service-env.eba-dpfupnxv.us-east-1.elasticbeanstalk.com/sendEmail`, body)
+      fetch(`https://centra.kylelac.com/sendEmail`, body)
         .then((response) => response.json())
         .then((ok) => {
               //dispatch(hideProgress());
